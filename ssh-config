@@ -1,0 +1,19 @@
+
+
+
+
+Host test
+	HostName 11.11.11.11
+	User root
+	Port 22
+    ForwardAgent yes
+	IdentityFile ~/.ssh/xxx
+
+
+
+Host *
+    ForwardAgent yes
+	AddKeysToAgent yes
+	UseKeychain yes
+	IdentityFile ~/.ssh/xxxx
+
